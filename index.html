@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project JavaScript</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container header-content d-flex justify-content-between ">
+            <a href="index.html" class="text-white fw-bold fs-5"> Shopping</a>
+            <p class="text-white fw-bold fs-5 text-uppercase mb-0" id="welcome" style="display: none;">Welcome <span
+                    id="user-name" class="ms-2"> </span></p>
+            <div id="links">
+                <a href="login.html" class="text-white fw-bold fs-5" style="margin-right:20px ;">Sign In</a>
+                <a href="register.html" class="text-white fw-bold fs-5">Sign Up</a>
+            </div>
+            <div style="display: none; position: relative;" class="cart-select">
+                    <a href="#" class="view-select me-5" onclick="opencart()">
+                        <i class="fa-solid fa-cart-shopping text-white" style="position: relative;"> <span
+                                id="countPro">0</span></i>
+                        <i class="fa-solid fa-caret-up text-white caretUp"></i>
+                    </a>
+                    <div class="cart" style="display: none;">
+                        <div style="overflow: hidden;">
+                            <div class="scroll-cart">
+                                <div id="selectItems" class="text-white">
+                                </div><!-- selectItems -->
+                            </div><!-- scroll-cart -->
+                        </div>
+                        <div class="cart-btns">
+                            <a class="btn bg-white" onclick="viewSelectUser()">View selected products</a>
+                        </div><!--end  cart-btns -->
+                    </div><!-- end cart  -->
+                <a href="#" class="text-white fw-bold fs-5" id="logOut " onclick="out()"><i class="fa-solid fa-arrow-right-from-bracket"></i></a>
+            </div><!-- cart-select end -->
+        </div><!-- header content  end-->
+    </header><!-- header end -->
+
+    <div class="container search " style="margin-top:70px ;">
+        <input onkeyup="searchPro(this.value)" type="text" id="search" placeholder='search' class="input-search ">
+        <div class="btn-search">
+            <button class="btn bg-info text-white " onclick="getSearchMood(this.id)" id="searchTitle">
+                Search By Title</button>
+            <button class="btn bg-info text-white " onclick="getSearchMood(this.id)" id="searchCategory">
+                Search By Category</button>
+        </div><!-- btn-search -->
+    </div><!-- search -->
+
+    <div class="container m-auto row allProducts" style="position: relative;">
+        <!--  show products  -->
+    </div><!-- end allProducts -->
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/products.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/header.js"></script>
+</body>
+
+</html>

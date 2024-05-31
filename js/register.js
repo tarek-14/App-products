@@ -19,7 +19,6 @@ submit.addEventListener("click", function (e) {
         localStorage.setItem("email", email.value);
         localStorage.setItem("password", password1.value);
         setTimeout(() => {
-            // window.location = "login.html"
             location.assign('login.html')
         },1500)
     }

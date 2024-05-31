@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carts & Favorite</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="container header-content d-flex justify-content-between ">
+            <a href="index.html" class="text-white fw-bold fs-5">Online Shopping</a>
+            <a href="#" class="text-white fw-bold fs-5" id="logOut " onclick="out()"><i
+                    class="fa-solid fa-arrow-right-from-bracket"></i></a>
+        </div>
+        </div><!-- header content -->
+    </header><!-- header end -->
+
+    <h2 class="selected-title text-uppercase" style="color:  rgb(73, 88, 100);">Product Selected</h2>
+    <div class="container m-auto  d-flex gap-2  selectPro">
+       <!-- show products selected -->
+    </div><!-- end selectPro -->
+
+    <p class="total-price text-primary text-center mt-3 mb-3 fs-5 fw-bold">Total Price: <span id="total"></span> $</p>
+    
+    <hr>
+    
+    <h2 class="favorite-title text-uppercase " style="color:  rgb(73, 88, 100);">Favorite</h2>
+    <div class="container m-auto favorite d-flex gap-2 mb-5">
+        <!-- show product favorite -->
+    </div><!--end favorite -->
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/products.js"></script>
+    <script src="js/cartsproducts.js"></script>
+    <script src="js/header.js"></script>
+</body>
+
+</html>
