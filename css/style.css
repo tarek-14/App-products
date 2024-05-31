@@ -1,0 +1,249 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+a {
+    text-decoration: none;
+}
+body {
+    background-color: rgba(215, 223, 226, 0.608);
+}
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 3;
+    padding: 15px 0;
+    background-color:  rgb(73, 88, 100)
+}
+form {
+    width: 60%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 3px 10px 20px rgb(143, 164, 180);
+    background-color:  rgb(190, 205, 209);
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+}
+[type="submit"] {
+    width: 100%;
+}
+.line-or {
+    position: relative;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+}
+.line-or span::after {
+    content: "";
+    position: absolute;
+    width: 35%;
+    height: 1px;
+    background-color: rgb(0, 0, 0);
+    right: 20px;
+    top: 50%;
+}
+.line-or span::before {
+    content: "";
+    position: absolute;
+    width: 35%;
+    height: 1px;
+    background-color: rgb(0, 0, 0);
+    left: 20px;
+    top: 50%;
+}
+.create-account {
+    padding: 10px 20%;
+    border-radius: 5px;
+    background-color: rgb(0, 172, 0);
+}
+.create-account:hover {
+    background-color: rgb(0, 155, 0);
+}
+.search {
+    width: 100%;
+}
+.input-search {
+    width: 50%;
+    padding: 3px 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+.btn-search {
+    display: inline;
+}
+.search button {
+    width: 24.5%;
+}
+.card {
+    position: relative;
+    transition: .3s;
+    
+}
+.card img {
+    height: 200px; 
+}
+.card:hover {
+    margin-top: 50px;
+    border: 1px solid rgb(73, 88, 100);
+}
+#countPro{
+    background-color: rgba(128, 154, 160, 0.849);
+    border-radius: 40%;
+    position: absolute;
+    top: -12px;
+    right: 15px;
+    padding: 3px;
+    text-align: center;
+    align-items: center;
+}
+.caretUp{
+    display: none;
+}
+.cart{
+    position: absolute;
+    text-align: center;
+    background-color: rgb(73, 88, 100);
+    right: 50px;
+    padding: 10px;    
+    top: 40px;
+    display: none;
+    min-width: 300px;
+}
+
+#selectItems div{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    height: 40px;
+    line-height: 40px;
+    width: auto;
+}
+.scroll-cart{
+    max-height: 220px;
+    overflow-y:auto;
+}
+.cart-img{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    margin-right: 10px;
+    border-radius: 10%;
+}
+.detail-box{
+    /* display: grid; */
+    row-gap: .5rem;
+}
+.cart-quantity{
+    border-radius: 3px;
+    width: 2.5rem;
+    margin: 7.5px 10px;
+    height: 25px;
+    text-align: center;
+    font-size: 1rem;   
+}
+.cart-remove{
+    font-size: 1.3rem;
+    line-height: 40px;
+    color: red;
+    cursor: pointer;
+    margin-right: 15px;
+}
+.total{
+    display: flex;
+    justify-content: flex-start;
+    border-top: 1px solid white;
+}
+.total-title{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.cart-btns{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.cart-btns .btn  {
+    border: none;
+    border-radius: 0;
+    padding: 3px 10px;
+    width: 100%;
+}
+.favorite-title ,.selected-title{
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+    margin: 100px 0 30px 0  ;
+    color: white;
+}
+.favorite-title{
+    margin: 40px 0 30px 0  ;
+}
+.favorite,.selectPro{
+    overflow-x: auto;
+    padding: 15px;    
+}
+.fovUser,.proUser {
+    /* display: flex; */
+    position: relative;
+    color: white;
+    padding: 20px ;
+    padding-bottom: 0;
+    border-radius: 20px;
+    background-color: rgba(112, 148, 158, 0.801);
+    
+}
+.fovUser:hover,.proUser:hover{
+    background-color: rgba(98, 128, 136, 0.918);
+    
+}
+.fovUser img {
+    border-radius: 20px;
+    /* margin-right: 10px; */
+    height: 120px;
+    display: block;
+    margin: auto;
+    width: 100%;    
+}
+.fovUser .fa-heart {
+    font-size: 30px;
+    position: absolute;
+    left: auto;
+    bottom: 20px;
+    right: 20px;
+}
+#total{
+    background-color: rgb(0, 172, 0);
+    color: white;
+    padding: 5px 10px;
+    border-radius:5px ;
+}
+
+@media (max-width:900px) {
+    form {
+        width: 90%;
+    }
+    .create-account {
+        padding: 10px 30px;
+    }
+    .input-search {
+        width: 100%;
+    }
+    .btn-search {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .search button {
+        width: 45%;
+    }
+    #welcome{
+        font-size: 10px;
+    }
+}
