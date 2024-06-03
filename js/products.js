@@ -18,5 +18,5 @@ var products = [
     { id: 17, idf: 259,imgUrl: 'images/Original jeans pants.jpg', name: 'Original jeans', price: '200', category: 'pants' },
     { id: 18, idf: 269,imgUrl: 'images/Skinny jeans pants.jpg', name: 'Skinny jeans', price: '180', category: 'pants' },
     { id: 19, idf: 279,imgUrl: 'images/Sports pants.jpg', name: 'Sports pants', price: '150', category: 'pants' },
-    { id: 20, idf: 289,imgUrl: 'images/product-11.jpg', name: 'Aroma diffuser', price: '50', category: 'diffuser' },
+    { id: 20, idf: 289,imgUrl: 'images/product-11.jpg', name: 'Aroma diffuser', price: '50', category: 'diffuser' }
   ]
