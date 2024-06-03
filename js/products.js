@@ -1,8 +1,8 @@
 var products = [
-    { id: 1, idf: 99, imgUrl: '../images/Low-profile-unisex-running-shoe.jpg', name: 'Running shoe', price: '60', category: 'shoe' },
-    { id: 2, idf: 109,imgUrl: '../images/product-8.jpg', name: 'wall clock', price: '180', category: 'clock' },
-    { id: 3, idf: 119, imgUrl: '../images/Polo-shirt-red.jpg', name: ' polo shirt red', price: '40', category: 'shirt' },
-    { id: 4, idf: 129,imgUrl: '../images/Pure-women-running-shoes.jpg', name: 'womens shoes', price: '100', category: 'shoe' },
+    { id: 1, idf: 99, imgUrl: 'images/Low-profile-unisex-running-shoe.jpg', name: 'Running shoe', price: '60', category: 'shoe' },
+    { id: 2, idf: 109,imgUrl: 'images/product-8.jpg', name: 'wall clock', price: '180', category: 'clock' },
+    { id: 3, idf: 119, imgUrl: 'images/Polo-shirt-red.jpg', name: ' polo shirt red', price: '40', category: 'shirt' },
+    { id: 4, idf: 129,imgUrl: 'images/Pure-women-running-shoes.jpg', name: 'womens shoes', price: '100', category: 'shoe' },
     { id: 5, idf: 139,imgUrl: '../images/product-3.jpg', name: 'Optical scanner', price: '200', category: 'scanner' },
     { id: 6, idf: 149, imgUrl: '../images/Polo-shirt-bink.jpg', name: ' polo shirt bink', price: '40', category: 'shirt' },
     { id: 7, idf: 159,imgUrl: '../images/product-2.jpg', name: 'Wooden clock', price: '100', category: 'clock' },
