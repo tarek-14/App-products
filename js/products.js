@@ -1,5 +1,6 @@
 var products = [
     { id: 1, idf: 99, imgUrl: 'images/Low-profile-unisex-running-shoe.jpg', name: 'Running shoe', price: '60', category: 'shoe' },
+    { id: 14, idf: 229,imgUrl: 'images/Ultra-sports-shoes-for-men.jpg', name: 'Ultra sports', price: '110', category: 'shoe' },
     { id: 2, idf: 109,imgUrl: 'images/product-8.jpg', name: 'wall clock', price: '180', category: 'clock' },
     { id: 3, idf: 119, imgUrl: 'images/Polo-shirt-red.jpg', name: ' polo shirt red', price: '40', category: 'shirt' },
     { id: 4, idf: 129,imgUrl: 'images/Pure-women-running-shoes.jpg', name: 'womens shoes', price: '100', category: 'shoe' },
@@ -12,7 +13,6 @@ var products = [
     { id: 11, idf: 199, imgUrl: 'images/Enticer analog watch from Casio.jpg', name: 'Watch Casio', price: '150', category: 'clock' },
     { id: 12, idf: 209, imgUrl: 'images/Standart watch for men.jpg', name: 'Standart watch', price: '200', category: 'clock' },
     { id: 13, idf: 219,imgUrl: 'images/Mens-sports-shoes.jpg', name: 'Sports shoes', price: '150', category: 'shoe' },
-    { id: 14, idf: 229,imgUrl: 'images/Ultra-sports-shoes-for-men.jpg', name: 'Ultra sports', price: '110', category: 'shoe' },
     { id: 15, idf: 239,imgUrl: 'images/Lycra jeans pants.jpg', name: 'Lycra jeans', price: '170', category: 'pants' },
     { id: 16, idf: 249,imgUrl: 'images/Mens workout pants.jpg', name: 'Mens workout', price: '100', category: 'pants' },
     { id: 17, idf: 259,imgUrl: 'images/Original jeans pants.jpg', name: 'Original jeans', price: '200', category: 'pants' },
