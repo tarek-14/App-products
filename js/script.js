@@ -8,7 +8,7 @@ function showPro() {
   let x = products.map((item) => {
     return `
       <div class="card p-3 pb-2 mt-2  col-6 col-md-4 col-lg-3 ">
-        <img src="${item.imgUrl}" >
+        <img src="${item.imgUrl}" alt=" This is a ${item.name} product">
         <hr class="mb-0">
         <div class="card-body fw-bold">
             Name :${item.name}<br>
